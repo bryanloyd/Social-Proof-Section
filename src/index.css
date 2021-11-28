@@ -25,3 +25,105 @@ body {
 img {
   max-width: 100%;
 }
+
+/* Heading Component */
+
+.Heading {
+  margin: 80px 24px 50px 24px;
+  text-align: center;
+}
+
+.Heading_content h1 {
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  color: #502050;
+  margin-bottom: 18px;
+}
+
+.Heading_content p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.5px;
+  color: #937b92;
+  margin-bottom: 40px;
+}
+
+.Heading_ratings {
+  margin-bottom: 50px;
+}
+
+.Heading_ratings .Reviews,
+.Heading_ratings .ReportGuru,
+.Heading_ratings .BestTech {
+  color: #502050;
+  font-size: 1.3rem;
+  font-weight: 700;
+  width: 327px;
+  height: 78px;
+  background-color: #f7f2f7;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.Heading_ratings .Reviews img,
+.Heading_ratings .ReportGuru img,
+.Heading_ratings .BestTech img {
+  margin: 16px 0 14px 0;
+}
+
+/* Feedback Component */
+
+.Feedback {
+  margin: 0 24px 100px 24px;
+  color: #f7f2f7;
+}
+
+.Feedback_colton,
+.Feedback_irene,
+.Feedback_anne {
+  width: 327px;
+  height: 248px;
+  background-color: #502050;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.Feedback_colton .heading,
+.Feedback_irene .heading,
+.Feedback_anne .heading {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 40px 0 0 32px;
+}
+
+.Feedback_colton .heading img,
+.Feedback_irene .heading img,
+.Feedback_anne .heading img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.Feedback_colton .heading h6,
+.Feedback_irene .heading h6,
+.Feedback_anne .heading h6 {
+  font-size: 1.3rem;
+}
+
+.Feedback_colton .heading p,
+.Feedback_irene .heading p,
+.Feedback_anne .heading p {
+  font-size: 1.3rem;
+  color: #ee68a4;
+}
+
+.Feedback_colton .body,
+.Feedback_irene .body,
+.Feedback_anne .body {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  font-weight: 500;
+  padding: 26px 32px 32px 32px;
+}

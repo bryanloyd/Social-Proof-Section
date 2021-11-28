@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import FeedbackComponent from "./components/FeedbackComponent";
+import HeadingComponent from "./components/HeadingComponent";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Social Proof Section</h1>
+      <HeadingComponent />
+      <FeedbackComponent />
     </div>
   );
 };
