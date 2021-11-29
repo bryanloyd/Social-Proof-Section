@@ -4,3 +4,10 @@
     margin: auto;
   }
 }
+
+@media (min-width: 1200px) {
+  .App {
+    max-width: 1200px;
+    margin: auto;
+  }
+}

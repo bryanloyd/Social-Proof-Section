@@ -42,7 +42,7 @@ const FeedbackComponent = () => {
           </p>
         </div>
       </div>
-      <div className="Feedback_colton">
+      <div className="Feedback_anne">
         <div className="heading">
           <div>
             <img src={anne} alt="" />

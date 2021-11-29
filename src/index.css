@@ -49,6 +49,8 @@ img {
 }
 
 .Heading_ratings {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 50px;
 }
 
@@ -93,7 +95,7 @@ img {
 .Feedback_anne .heading {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 40px 0 0 32px;
 }
 
@@ -126,4 +128,87 @@ img {
   line-height: 2.2rem;
   font-weight: 500;
   padding: 26px 32px 32px 32px;
+}
+
+@media (min-width: 1200px) {
+  .Heading {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .Heading_content {
+    width: 445px;
+  }
+
+  .Heading_content h1 {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    letter-spacing: -1.71px;
+  }
+
+  .Heading_content p {
+    margin: 0;
+  }
+
+  .Heading_ratings {
+    margin: 0;
+  }
+
+  .Heading_ratings .Reviews,
+  .Heading_ratings .ReportGuru,
+  .Heading_ratings .BestTech {
+    display: flex;
+    align-items: center;
+    width: 445px;
+    height: 58px;
+    padding-left: 25px;
+  }
+
+  .Heading_ratings .Reviews {
+    margin-left: 100px;
+  }
+
+  .Heading_ratings .ReportGuru {
+    margin-left: 150px;
+  }
+
+  .Heading_ratings .BestTech {
+    margin-left: 200px;
+  }
+
+  .Heading_ratings .Reviews img,
+  .Heading_ratings .ReportGuru img,
+  .Heading_ratings .BestTech img {
+    margin: 0 3px;
+  }
+
+  .Heading_ratings .Reviews p,
+  .Heading_ratings .ReportGuru p,
+  .Heading_ratings .BestTech p {
+    margin: 0 24px;
+  }
+
+  .Feedback {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Feedback_colton,
+  .Feedback_irene,
+  .Feedback_anne {
+    width: 350px;
+    height: 234px;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .Feedback_irene {
+    margin-top: 25px;
+  }
+
+  .Feedback_anne {
+    margin-top: 50px;
+  }
 }
